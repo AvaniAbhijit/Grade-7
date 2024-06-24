@@ -18,7 +18,7 @@ while True:
 
     keys = pygame.key.get_pressed()
     if keys[pygame.K_RIGHT]:
-      player_x += 1
+      player_x += player_speed
 
 
     window.fill((255, 255, 255))
