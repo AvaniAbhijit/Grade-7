@@ -22,7 +22,7 @@ paddle_speed = 10
 # Ball properties
 ball_x, ball_y = 100, 100  # Initial position of the ball
 ball_size = 50  # Diameter of the ball
-ball_speed_x, ball_speed_y = 5, 5
+ball_speed_x, ball_speed_y = 1, 1
 
 # Set up display
 window = pygame.display.set_mode((WIDTH, HEIGHT))
