@@ -25,8 +25,8 @@ bricks = []
 ball_size = 20
 ball_x = WIDTH // 2
 ball_y = HEIGHT // 2
-ball_speed_x = 5
-ball_speed_y = 5
+ball_speed_x = 1
+ball_speed_y = 1
 
 
 for row in range(brick_rows):
