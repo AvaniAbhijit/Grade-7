@@ -64,8 +64,6 @@ while True:
             score += 1  # Increase score when egg is caught
         elif updated_y > screen_height:  # Check if the egg falls past the basket (missed)
             missed_eggs += 1
-            if missed_eggs >= missed_limit:
-                game_over = True
         else:
             updated_eggs.append((egg_x, updated_y))
 
